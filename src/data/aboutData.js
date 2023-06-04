@@ -28,7 +28,9 @@ export const aboutData = {
     "Github",
     "Mongoose",
     "Prisma",
+    "Jest",
     "MVC Design Pattern",
     "Modular Design Pattern",
+    "Jira",
   ],
 };

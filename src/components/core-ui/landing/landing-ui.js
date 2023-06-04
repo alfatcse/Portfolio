@@ -3,11 +3,10 @@ import { HashLink as NavLink } from "react-router-hash-link";
 import Typed from "react-typed";
 import { headerData } from "../../../data/headerData";
 import "./landing.css";
-
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { contactsData } from "../../../data/contactsData";
-
 function LandingUI({ theme, drawerOpen, classes }) {
+  console.log(contactsData);
   return (
     <div className="landing" style={{ backgroundColor: theme.quaternary }}>
       <div className="landing--container">
@@ -82,7 +81,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
               style={{ color: theme.primary, fontSize: "20px" }}
               loop
             />
-            <p style={{ textAlign: "justify", textAlignLast: "justify" }}>
+            <p style={{ textAlign: "right" }}>
               {headerData.desciption}{" "}
               {headerData.desciption2.map((i, index) => (
                 <React.Fragment key={index}>
@@ -119,5 +118,4 @@ function LandingUI({ theme, drawerOpen, classes }) {
     </div>
   );
 }
-
 export default LandingUI;
