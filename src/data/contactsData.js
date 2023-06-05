@@ -7,7 +7,7 @@ export const contactsData = {
   //facebook: "https://www.facebook.com/abusaid.riyaz/",
   linkedIn: "https://www.linkedin.com/in/alfat-jahan-rony-38920b163/",
   twitter: "https://twitter.com/alfat_rony",
-  medium: "https://medium.com/@abusaid-bd",
+  medium: "https://medium.com/@alfatjahanrony",
   stackOverflow: "https://stackoverflow.com/users/17832297/alfat-jahan",
-  devUsername: "said7388",
+  devUsername: "alfatcse123",
 };

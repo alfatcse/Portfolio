@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { contactsData } from '../data/contactsData';
+import { useEffect, useState } from "react";
+import { contactsData } from "../data/contactsData";
 
 function UseBlog() {
   const [blogs, setBlogs] = useState([]);
@@ -8,13 +8,13 @@ function UseBlog() {
   useEffect(() => {
     fetch(`https://dev.to/api/articles?username=${devUsername}`)
       .then((response) => response.json())
-      .then(data => {
+      .then((data) => {
         const filtered = data.sort(() => Math.random() - 0.5);
-        setBlogs(filtered)
-      })
+        setBlogs(filtered);
+      });
   }, [devUsername]);
 
   return { blogs };
-};
+}
 
 export default UseBlog;
