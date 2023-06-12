@@ -120,7 +120,7 @@ const Contacts = () => {
           )
           .then(
             (result) => {
-              console.log("success");
+              console.log("success", form.current);
               setSuccess(true);
               setErrMsg("");
               setName("");
