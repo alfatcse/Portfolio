@@ -105,3 +105,61 @@
   word-break: break-word;
   line-height: 100%;
 }
+.projectCode a {
+  margin-right: 10px;
+}
+.tooltip1 {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip1::after {
+  content: "Frontend Code";
+  font-family: var(--primaryFont);
+  visibility: hidden;
+  color: #080808;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip1:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+.tooltip2 {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip2::after {
+  content: "Backend Code";
+  font-family: var(--primaryFont);
+  visibility: hidden;
+  color:#080808;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip2:hover::after {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+

@@ -4,7 +4,6 @@ export const contactsData = {
   address: "Unterweg 14,",
   address2: "60318,Frankfurt am Main",
   github: "https://github.com/alfatcse",
-  //facebook: "https://www.facebook.com/abusaid.riyaz/",
   linkedIn: "https://www.linkedin.com/in/alfat-jahan-rony-38920b163/",
   twitter: "https://twitter.com/alfat_rony",
   medium: "https://medium.com/@alfatjahanrony",
