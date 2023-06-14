@@ -71,4 +71,22 @@ export const projectsData = [
     demo: "https://sell-now-b00ee.web.app/",
     image: four,
   },
+  {
+    id: 5,
+    projectName: "Sell Now",
+    projectDesc: {
+      projectDescription:
+        "A project closely related to E-Commerce Site.Where a user can buy and sell used Mobile Phone.",
+      Credential: "Admin Credential->",
+      Admin: "UserID:Admin123#",
+      Password: "Password: Admin123#",
+    },
+    tags: ["React", "Tailwind", "Stripe", "Firebase"],
+    code: {
+      frontEnd: "https://github.com/alfatcse/Online-Shop-Client",
+      backEnd: "https://github.com/alfatcse/Online-Shop-Server",
+    },
+    demo: "https://sell-now-b00ee.web.app/",
+    image: four,
+  },
 ];
