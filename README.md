@@ -6,7 +6,7 @@
 
 # Demo :movie_camera:
 
-![](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yg7pbgnih9nziulfu3u9.gif)
+![](https://i.ibb.co/W0HpDfK/Appreciate-Nature-5-second-video-1.gif)
 
 ## View live demo [here](https://abusaid.netlify.app/).
 
