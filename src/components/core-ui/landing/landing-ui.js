@@ -105,7 +105,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <button className={classes.resumeBtn}>Download CV</button>
+                  <button className={classes.resumeBtn}>Download Résumé</button>
                 </a>
               )}
               <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
