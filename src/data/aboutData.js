@@ -32,5 +32,6 @@ export const aboutData = {
     "MVC Design Pattern",
     "Modular Design Pattern",
     "Jira",
+    "CI/CD(Github Actions)",
   ],
 };

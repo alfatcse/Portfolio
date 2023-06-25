@@ -15,7 +15,6 @@ function SingleProjectUI({
   theme,
   classes,
 }) {
-  console.log(code);
   return (
     <Fade bottom>
       <div

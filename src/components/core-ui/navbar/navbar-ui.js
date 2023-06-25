@@ -20,7 +20,6 @@ function NavbarUI({
   changeTheme,
   isDark,
 }) {
-  console.log(headerData.name);
   return (
     <div className="navbar">
       <div className="navbar--container">

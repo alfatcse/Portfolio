@@ -74,6 +74,7 @@ import wolframalpha from "../assets/svg/skills/wolframalpha.svg";
 import nodeJs from "../assets/svg/skills/node.svg";
 import canva from "../assets/svg/skills/canva.svg";
 import ubontu from "../assets/svg/skills/ubuntu.svg";
+import gitAction from "../assets/svg/skills/githubactions.svg";
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
@@ -173,8 +174,6 @@ export const skillsImage = (skill) => {
       return firebase;
     case "gimp":
       return gimp;
-    case "git":
-      return git;
     case "graphql":
       return graphql;
     case "lightroom":
@@ -231,6 +230,8 @@ export const skillsImage = (skill) => {
       return canva;
     case "node js":
       return nodeJs;
+    case "ci/cd(github actions)":
+      return gitAction;
     default:
       break;
   }

@@ -20,6 +20,7 @@ export const skillsData = [
   "Firebase",
   "AWS",
   "Git",
+  "CI/CD(Github Actions)",
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

@@ -6,7 +6,6 @@ import "./landing.css";
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { contactsData } from "../../../data/contactsData";
 function LandingUI({ theme, drawerOpen, classes }) {
-  console.log(contactsData);
   return (
     <div className="landing" style={{ backgroundColor: theme.quaternary }}>
       <div className="landing--container">
