@@ -14,7 +14,7 @@ Overall, my developer portfolio serves as a comprehensive representation of my c
 
 # Demo :movie_camera:
 
-![Appreciate Nature (5 second video) (1)](https://github.com/alfatcse/Portfolio/assets/34067640/1527f5c7-d475-49e2-b2c2-157661b96798)
+![Appreciate Nature (5 second video) (1)](https://media.githubusercontent.com/media/alfatcse/gifTest/main/portfolio.gif)
 
 ## View live demo: [www.alfats-portfolio.com](https://alfats-portfolio.onrender.com/)
 
