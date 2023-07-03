@@ -10,6 +10,7 @@ export const aboutData = {
     "Nodejs",
     "Express",
     "React",
+    "Vue Js",
     "NextJs",
     "Redux",
     "Bootstrap",

@@ -80,6 +80,8 @@ export const skillsImage = (skill) => {
   switch (skillID) {
     case "gcp":
       return gcp;
+    case "vue js":
+      return vue;
     case "ubuntu":
       return ubontu;
     case "git":
@@ -112,8 +114,6 @@ export const skillsImage = (skill) => {
       return svelte;
     case "typescript":
       return typescript;
-    case "vue":
-      return vue;
     case "bootstrap":
       return bootstrap;
     case "bulma":

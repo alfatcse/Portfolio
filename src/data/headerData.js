@@ -10,6 +10,7 @@ export const headerData = {
     "TypeScript",
     "Node Js",
     "Express Js",
+    "Vue Js",
     "and many more",
   ],
   image: "https://i.ibb.co/ngB3yqM/cv-pic.jpg",
