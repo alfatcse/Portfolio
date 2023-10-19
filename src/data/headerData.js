@@ -1,5 +1,5 @@
 export const headerData = {
-  name: "Alfat Jahan Rony",
+  name: "Alfat Jahan Bony",
   title: "Hello! I am",
   desciption:
     "Hello! I am Alfat Jahan Rony, a dedicated and passionate software developer with a strong drive to create innovative solutions. With one year of experience in software development, I have honed my skills in.",
