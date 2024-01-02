@@ -1,7 +1,8 @@
 export const experienceData = [
   {
     id: 1,
-    company: "U-Glow GmbH,Friedrich-Ebert-Straße 33, 45468 Mülheim an der Ruhr",
+    company:
+      "U-Glow GmbH,Friedrich-Ebert-Straße 33, 45468 Mülheim an der Ruhr,Deutschland",
     jobtitle: "Full-stack Web Developer",
     startYear: "June 2023",
     endYear: "December 2023",
