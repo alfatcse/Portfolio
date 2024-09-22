@@ -73,7 +73,7 @@ const Certificate = () => {
               </CardContent>
             </CardActionArea>
           </Card>
-        ))}
+        ))} 
       </Slider>
     </Container>
   );

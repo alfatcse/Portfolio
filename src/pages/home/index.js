@@ -10,6 +10,7 @@ import Education from '../../components/core-ui/education/education'
 import Experience from '../../components/core-ui/experience/experience'
 import Skills from '../../components/core-ui/skills/skills'
 import { headerData } from '../../data/headerData'
+import Certificate from '../../components/core-ui/certificate/certificate'
 
 function HomePage() {
     return (
@@ -22,7 +23,7 @@ function HomePage() {
             <About />
             <Experience />
             <Skills />
-            {/* <Certificate /> */}
+            {/* <Certificate />  */}
             <Projects />
             <Education />
             <Blog />

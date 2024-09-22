@@ -10,7 +10,7 @@ export const educationData = [
     id: 2,
     institution:
       "Bangabandhu Sheikh Mujibur Rahman Science and Technology University-Gopalganj-8100-Bangladesh",
-    course: "Bachelor of Computer Science and Software Engineer- ing(CSE)",
+    course: "Bachelor of Computer Science and Engineering(CSE)",
     startYear: "2014",
     endYear: "2018",
   },

@@ -114,7 +114,7 @@
 }
 
 .tooltip1::after {
-  content: "Frontend Code";
+  content: "Source Code";
   font-family: var(--primaryFont);
   visibility: hidden;
   color: #080808;

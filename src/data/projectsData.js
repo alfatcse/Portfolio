@@ -2,9 +2,28 @@ import four from "../assets/svg/projects/four.svg";
 import doctor from "../assets/svg/projects/doctor.svg";
 import learning from "../assets/svg/projects/learning.svg";
 import chatting from "../assets/svg/projects/chatting.svg";
+import university from "../assets/svg/projects/University.svg";
 export const projectsData = [
   {
     id: 1,
+    projectName: "University Management",
+    projectDesc: {
+      projectDescription:
+        "This project is a University Management System developed using a microservices architecture, allowing for modularity, scalability, and maintainability",
+      Credential: "Admin Credential->",
+      Admin: "UserID: A-00000,",
+      Password: "Password: universityadmin123!@",
+    },
+    tags: ["NextJS", "PostgreSQL", "Microservices","Redis"],
+    code: {
+      frontEnd: "https://github.com/alfatcse/University-Management",
+      backEnd: "https://github.com/alfatcse/Doctors-Portal-Server",
+    },
+    demo: "https://university-management-frontend-pdlf.onrender.com/",
+    image: university,
+  },
+  {
+    id: 2,
     projectName: "Doctor's Portal",
     projectDesc: {
       projectDescription:
@@ -15,14 +34,14 @@ export const projectsData = [
     },
     tags: ["React", "Express", "Stripe", "Firebase"],
     code: {
-      frontEnd: "https://github.com/alfatcse/Doctors-Portal",
+      frontEnd: "https://github.com/alfatcse/Doctor-Portal",
       backEnd: "https://github.com/alfatcse/Doctors-Portal-Server",
     },
-    demo: "https://doctors-portal-be73e.web.app/",
+    demo: "https://doctors-portal-4ref.onrender.com/",
     image: doctor,
   },
   {
-    id: 2,
+    id: 3,
     projectName: "Chatting App",
     projectDesc: {
       projectDescription:
@@ -30,14 +49,14 @@ export const projectsData = [
     },
     tags: ["React", "Express", "Socket.io"],
     code: {
-      frontEnd: "https://github.com/alfatcse/Chat-App-Client",
+      frontEnd: "https://github.com/alfatcse/Chat-App",
       backEnd: "https://github.com/alfatcse/Chat-App-Server",
     },
-    demo: "http://18.197.51.51:3000/",
+    demo: "https://chat-app-client-egmb.onrender.com/",
     image: chatting,
   },
   {
-    id: 3,
+    id: 4,
     projectName: "Learning Portal",
     projectDesc: {
       projectDescription:
@@ -54,7 +73,7 @@ export const projectsData = [
     image: learning,
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Sell Now",
     projectDesc: {
       projectDescription:

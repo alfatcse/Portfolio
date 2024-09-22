@@ -47,7 +47,7 @@ function SingleProjectUI({
                   aria-label="Demo"
                 />
               </a>
-              {code?.backEnd && (
+              {/* {code?.backEnd && (
                 <a
                   href={code.backEnd}
                   target="_blank"
@@ -65,7 +65,7 @@ function SingleProjectUI({
                     aria-label="Demo"
                   />
                 </a>
-              )}
+              )} */}
             </div>
             <a
               href={demo}
